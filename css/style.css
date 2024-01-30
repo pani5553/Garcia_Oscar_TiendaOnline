@@ -1,0 +1,100 @@
+/**/
+/*este es el navegador de la parte superior de la pagina web*/
+nav{
+    height: 10%;}
+
+.nav{
+    display:flex;}
+
+.navbar{
+    display: flex;}
+
+.nava{
+    padding: 1% 15%;
+    border: 1px solid black;
+    margin: 11% 5%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(120, 160, 108);
+    border-radius: 25%;
+    text-decoration: none;}
+
+.logo{display: flex;
+    margin: 4%;}
+
+/*este es el estilo del titulo "T3cN GUNS"*/
+
+h1{ color: rgb(23, 36, 6);
+    font-size: 35pt;}
+
+
+/*en esta caso lo palntaeo como una cuadricula de 3x3 y el gap es el espacio entre celdas*/
+
+.cuadricula{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;}
+
+/*aqui esta el estilo de las imagenes , que sean redondas y que se centre dentro de su contenedor.*/
+.circular{
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    margin-right: 4em;
+    margin-left: 4em;
+    .imagen-con-sombra {
+        box-shadow:5px rgba(0, 0, 0, 0.5);
+    }}
+
+
+.botones:hover{
+    background-color: #12a80d;
+    border-color: #024b2d;}
+
+.apartado{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.botones{
+    padding: 10px;
+    border: 2px solid #33c246;
+    background-color: #3eca51;
+    color: #fff;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+    text-decoration: none;
+    margin-top: 1em;}
+
+.fondo{
+    background-image:url("../img/red mimetica.png");
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.apartado2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;}
+
+.p_rep{
+    font-size: 2em;}
+
+.main-carrito {
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+}
+    
+.producto-carrito {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;}
+
+.fondo2 {
+    background-color: rgb(102, 87, 87);
+}

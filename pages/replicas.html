@@ -1,0 +1,67 @@
+<!DOCTYPE html >
+<html lang="en" class="fondo2">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T3cN</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <img src="../img/logo tecno.png" width="40%" alt="logo tienda">
+            <div class="navbar">
+            <a class="nava"  href="../index.html">Inicio</a>
+        </nav>            
+                <div id="carrito">
+                <h2>Carrito</h2>
+                <div id="itemsCarrito"></div>
+                <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+            </div>
+    </header>
+<main>
+    <section class="cuadricula">
+
+        <article class="apartado2" class="producto-carrito" id="producto 1" class="imagen-con-sombra">
+            <img src="../img/escopeta-muelle.png" alt="escopeta de airsoft" width="300em">
+                <h3 class="p_rep">escopeta airsoft</h3>
+                <p class="p_rep">20,00€</p>
+                <button onclick="agregarAlCarrito('escopeta-muelle', 20)">comprar</button>
+        </article>
+
+            <article class="apartado2" class="producto-carrito" id="producto2">
+                <img src="../img/saigo-defense-sniper-.png" alt="rifle de francotirador de airsoft"  width="300em">
+                <h3 class="p_rep">rifle de francotirador de airsoft</h3>
+                <p class="p_rep">263,21€</p>
+                <button onclick="agregarAlCarrito('DMR airsoft', 263.21)">comprar</button>
+        </article>
+            <article class="apartado2" class="producto-carrito" id="producto3">
+                <img src="../img/replica-pistola-aap01.png" alt="pistola de airsoft"  width="300em">
+                <h3 class="p_rep">pistola aap01 de airsoft</h3>
+                <p class="p_rep">86,50€</p>
+                <button onclick="agregarAlCarrito('pistola aap01 airsoft', 86,50)">comprar</button>
+        </article>
+            <article class="apartado2" class="producto-carrito" id="producto4">
+                <img src="../img/REPLICA_apoyo.png" alt="fusil pesado de airsoft"  width="300em">
+                <h3 class="p_rep">fusil pesado de airsoft</h3>
+                <p class="p_rep">256,97€</p>
+                <button onclick="agregarAlCarrito('fusil pesado airsoft', 2256,97)">comprar</button>
+        </article>
+            <article class="apartado2" class="producto-carrito" id="producto5">
+                <img src="../img/lanzagranadas-thor.png" alt="lanzagranadas de airsoft"  width="300em">
+                <h3 class="p_rep">lanzagranadas de airsoft</h3>
+                <p class="p_rep">72,95€</p>
+                <button onclick="agregarAlCarrito('lanzagranadas airsoft', 72,95)">comprar</button>
+        </article>
+            <article class="apartado2" class="producto-carrito" id="producto6">
+                <img src="../img/cuchillo-bc141-tan-dummy.png" alt="cuchillo dummy"  width="300em">
+                <h3 class="p_rep">cuchillo dummy</h3>
+                <p class="p_rep">7,99€</p>
+                <button onclick="agregarAlCarrito('cuchillo dummy', 7,99)">comprar</button>
+        </article>
+    </section>
+    <script src="../script/script-cesta.js"></script>
+</main>
+</html>
